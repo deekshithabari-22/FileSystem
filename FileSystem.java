@@ -127,13 +127,13 @@ public class FileSystem {
 
         Files rootFile=new Files("root");
 
-        System.out.println("Welcome to FileSystem!!");
+        System.out.println("Welcome to FileSystem!!!");
 
         String[] op={"1.Create a File","2.Edit a File","3.Delete a file","4.Exit"};
         boolean exit=false;
         while(!exit){
 
-            System.out.println("Choose a option");
+            System.out.println("Choose a option:");
             for(String s : op){
                 System.out.println(s);
             }
