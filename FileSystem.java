@@ -178,7 +178,7 @@ public class FileSystem {
 
                 case 2:
 
-                System.out.println("Choose a File which you want to edit");
+                System.out.println("Choose a File which you want to edit ?");
 
                 displayFiles(rootFile);
                 System.out.println();
@@ -191,7 +191,7 @@ public class FileSystem {
                 Files loc1=search(rootFile,opt1);
 
                 if(loc1==null){
-                    System.out.println("You've selected an ivalid option");
+                    System.out.println("You've selected an ivalid option!!");
                 }
                 else{
                     boolean isEdit=edit(rootFile,opt1,fname1);
