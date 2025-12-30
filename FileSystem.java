@@ -21,9 +21,9 @@ class Pair{
     Files f1;
     String name;
 
-    Pair(Files f,String name){
+    Pair(Files f,String fname){
         this.f=f;
-        this.name=name;
+        this.name=fname;
     }
 
     Pair(Files f,Files f1){
